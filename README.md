@@ -40,12 +40,13 @@ This script is personalized to work exclusively with my Fitbit account and is no
 **#Step-by-Step Setup:**<br>
 **##Clone the Script:**<br>
 - Open your Google Sheet and navigate to Extensions > Apps Script.<br>
-- Copy the provided JavaScript code into the Apps Script Editor.<br><br><br>
+- Create multiple .gs files within the Google Apps Script editor (e.g., config.gs, fitbitApi.gs, sheetOperations.gs).<br>
+- Copy and paste the provided JavaScript code into these separate files as instructed in the project structure, or paste it all into one .gs file.<br><br><br>
 
 
 **##Fitbit API Credentials:**<br>
 - Set up a Fitbit Developer account to obtain your API credentials.<br>
-- In the script, configure your Client ID, Client Secret, and Access Token to authenticate with the Fitbit API.<br><br><br>
+- In the config.gs file, replace the placeholders for Client ID, Client Secret, and Access Token with your Fitbit API credentials.<br><br><br>
 
 
 **##Input Your Calorie Goal:**<br>
@@ -53,7 +54,7 @@ This script is personalized to work exclusively with my Fitbit account and is no
 
 
 **##Run the Script:**<br>
-- Once everything is set up, the script will automatically fetch data from Fitbit and update your progress every minute.<br><br><br><br>
+- Once everything is set up, you can run the main() function from the Apps Script editor to start fetching data. The script will automatically fetch data from Fitbit and update your progress every minute.<br><br><br><br>
 
 
 
