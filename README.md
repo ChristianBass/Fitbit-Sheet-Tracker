@@ -38,7 +38,7 @@ This script is personalized to work exclusively with my Fitbit account and is no
 
 
 **#Step-by-Step Setup:**<br>
-**### 1. clone the Script:**<br>
+**### 1. Clone the Script:**<br>
 - Open your Google Sheet and navigate to Extensions > Apps Script.<br>
 - Create multiple .gs files within the Google Apps Script editor (e.g., config.gs, fitbitApi.gs, sheetOperations.gs).<br>
 - Copy and paste the provided JavaScript code into these separate files as instructed in the project structure, or paste it all into one .gs file.<br><br><br>
