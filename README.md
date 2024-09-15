@@ -38,22 +38,32 @@ This script is personalized to work exclusively with my Fitbit account and is no
 
 
 **#Step-by-Step Setup:**<br>
-**##Clone the Script:**<br>
+**### 1. clone the Script:**<br>
 - Open your Google Sheet and navigate to Extensions > Apps Script.<br>
 - Create multiple .gs files within the Google Apps Script editor (e.g., config.gs, fitbitApi.gs, sheetOperations.gs).<br>
 - Copy and paste the provided JavaScript code into these separate files as instructed in the project structure, or paste it all into one .gs file.<br><br><br>
 
 
-**##Fitbit API Credentials:**<br>
+**### 2. Fitbit API Credentials:**<br>
 - Set up a Fitbit Developer account to obtain your API credentials.<br>
 - In the config.gs file, replace the placeholders for Client ID, Client Secret, and Access Token with your Fitbit API credentials.<br><br><br>
 
 
-**##Input Your Calorie Goal:**<br>
+**### 3. Copy the Google Sheet Template:**<br>
+- You can make a copy of the pre-formatted Google Sheet template using the link below:<br>
+[Google Sheets Template](https://docs.google.com/spreadsheets/d/11y6_4ZInAUm7ZKJNgqzD3NZfKYIyQGbDEOCBuaRaHZ8/edit?usp=sharing)<br>
+
+**Important:** When copying manually, make sure to replicate the **column widths** by following these steps:<br>
+   1. **Right-click** the column headers in the original sheet.<br>
+   2. Select **"Resize column"** to note the width.<br>
+   3. In the new sheet, right-click the target column and enter the same width to match the original layout.<br><br><br>
+
+
+**### 4. Input Your Calorie Goal:**<br>
 - In the Google Sheet, input your desired total calories to burn in the red box at the top right.<br><br><br>
 
 
-**##Run the Script:**<br>
+**### 5. Run the Script:**<br>
 - Once everything is set up, you can run the main() function from the Apps Script editor to start fetching data. The script will automatically fetch data from Fitbit and update your progress every minute.<br><br><br><br>
 
 
